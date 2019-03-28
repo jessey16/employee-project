@@ -1,0 +1,19 @@
+<html>
+<head><title>Form</title></head>
+<body>bgcolor="blue">
+<center>
+<table border =2>
+<td>
+<th>id</th>
+<th>name</th>
+</td>
+<h1> Student Form </h1>
+{% for i in rec %}}
+<tr>
+<td>{{i.sid}}</td>
+<td>{{i.sname}}</td>
+{% endfor %}
+</tr>
+</table>
+</body>
+</html>
